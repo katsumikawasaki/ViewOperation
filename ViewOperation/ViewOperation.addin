@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ViewOperation</Text>
+    <Description>Some description for ViewOperation</Description>
+    <Assembly>ViewOperation.dll</Assembly>
+    <FullClassName>ViewOperation.Command</FullClassName>
+    <ClientId>28913b65-73e7-4e25-818b-4c8a4c8d2582</ClientId>
+    <VendorId>com.kawasaki-pe</VendorId>
+    <VendorDescription>Katsumi kawasaki</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ViewOperation</Name>
+    <Assembly>ViewOperation.dll</Assembly>
+    <FullClassName>ViewOperation.App</FullClassName>
+    <ClientId>8d5e254f-89b8-495e-893f-c531a521713e</ClientId>
+    <VendorId>com.kawasaki-pe</VendorId>
+    <VendorDescription>Katsumi kawasaki</VendorDescription>
+  </AddIn>
+</RevitAddIns>
